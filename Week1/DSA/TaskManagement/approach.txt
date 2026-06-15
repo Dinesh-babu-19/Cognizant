@@ -1,0 +1,44 @@
+1. Understand Linked Lists
+
+A Linked List is a linear data structure where elements are stored as nodes. Each node contains data and a reference (link) to the next node.
+
+Unlike arrays, linked list elements are not stored in contiguous memory locations.
+
+Types of Linked Lists
+1. Singly Linked List
+
+Each node contains:
+
+Data
+Reference to the next node
+Head
+ ↓
+[Task1|•] → [Task2|•] → [Task3|null]
+
+Advantages:
+
+Dynamic size
+Efficient insertion and deletion at the beginning
+
+Disadvantages:
+
+Can only traverse in one direction
+No direct access to elements
+2. Doubly Linked List
+
+Each node contains:
+
+Reference to the previous node
+Data
+Reference to the next node
+null ← [•|Task1|•] ⇄ [•|Task2|•] ⇄ [•|Task3|•] → null
+
+Advantages:
+
+Traversal in both directions
+Easier deletion of a node
+
+Disadvantages:
+
+Requires extra memory for the previous pointer
+More complex implementation

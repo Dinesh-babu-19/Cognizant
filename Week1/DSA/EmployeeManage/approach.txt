@@ -1,0 +1,27 @@
+1. Understand Array Representation
+How are Arrays represented in memory?
+
+An array stores elements in contiguous memory locations.
+
+For example:
+
+Employee[] employees = new Employee[5];
+
+Memory representation:
+
+Index:      0      1      2      3      4
+        ↓      ↓      ↓      ↓      ↓
+employees [ E1 ] [ E2 ] [ E3 ] [ E4 ] [ E5 ]
+
+Each index stores a reference to an Employee object.
+
+Advantages of Arrays
+Fast Access
+Elements can be accessed directly using an index.
+Time Complexity: O(1)
+Simple Implementation
+Easy to understand and use.
+        Memory Efficient
+No extra memory is needed for pointers (unlike linked lists).
+Good Cache Performance
+Since elements are stored contiguously, accessing nearby elements is faster.

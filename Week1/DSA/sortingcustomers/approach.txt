@@ -1,0 +1,44 @@
+1. Understand Sorting Algorithms
+
+Sorting algorithms arrange data in a specific order (ascending or descending). In an e-commerce platform, sorting orders by total price helps prioritize high-value orders.
+
+Bubble Sort
+Repeatedly compares adjacent elements.
+Swaps them if they are in the wrong order.
+Largest element "bubbles up" to the end after each pass.
+
+Time Complexity:
+
+Best Case: O(n) (optimized version)
+Average Case: O(n²)
+Worst Case: O(n²)
+Insertion Sort
+Builds the sorted array one element at a time.
+Inserts each element into its correct position.
+
+Time Complexity:
+
+Best Case: O(n)
+Average Case: O(n²)
+Worst Case: O(n²)
+Quick Sort
+Uses the divide-and-conquer approach.
+Selects a pivot element.
+Partitions the array into smaller and larger elements relative to the pivot.
+Recursively sorts the partitions.
+
+Time Complexity:
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²)
+Merge Sort
+Divides the array into two halves.
+Recursively sorts both halves.
+Merges the sorted halves.
+
+Time Complexity:
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
